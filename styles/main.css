@@ -1,0 +1,21 @@
+.pageHeader {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.list {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+        flex-basis: 16%;  /* Make each child element the same width */
+        border: 1px dotted crimson;
+        padding: 1em;
+        margin: 0.5em;
+        text-align: center;
+        font-weight: bold;
+}
